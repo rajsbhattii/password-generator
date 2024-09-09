@@ -1,0 +1,96 @@
+body {
+    width: 100vw;
+    height: 90vh;
+    margin: auto;
+    background-color: darkslategrey;
+}
+h1 {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    padding-top: 0;
+    margin-bottom: 0px;
+    padding-left: 40px;
+    font-size: 70px;
+}
+
+p {
+    padding-left: 45px;
+    font-family: "Merriweather";
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px
+}
+
+.h1green {
+    margin-top: 0px;
+    color: darkslategrey
+}
+
+.h1black {
+    margin-top: 50px;
+    padding-top: 30px;
+    color: rgb(28, 28, 28);
+}
+
+.largeBtn {
+    background-color: darkslategrey;
+    cursor: pointer;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 45px;
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 25px
+}
+
+.largeBtn:hover {
+    background-color: rgb(80, 132, 132);
+}
+
+.block {
+    background: whitesmoke;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 50px, 50px, 50px, 50px;
+}
+
+hr {
+    width: 95%;
+    color: darkgrey;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    padding-left: 45px;
+
+}
+
+.passBtn {
+    background-color: rgb(28, 28, 28);
+    color:rgb(106, 174, 106);
+    cursor: pointer;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.passBtn:hover {
+    background-color: rgb(80, 132, 132);
+}

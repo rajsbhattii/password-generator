@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+</head>
+<body>
+    <div class="block">
+        <h1 class="h1black">Generate a </h1>
+        <h1 class="h1green">random password</h1>
+        <p>Ensure your digital safety.<br>Never use an insecure password again.</p>
+        <br>
+        <button onclick="generatePass()" id="generateBtn" class="largeBtn">Generate passwords</button>
+        <br>
+        <hr>
+        <br>
+        <div id="btndiv" class="buttons">
+          <button onclick="copyPass(password1Final)" id="password1" class="passBtn"></button>
+          <button onclick="copyPass(password2Final)" id="password2" class="passBtn"></button>
+        </div>
+      
+    
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
